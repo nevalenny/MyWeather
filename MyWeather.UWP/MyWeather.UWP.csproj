@@ -165,9 +165,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyWeatherStandard\MyWeatherStandard.csproj">
+    <ProjectReference Include="..\MyWeatherStandard\MyWeather.csproj">
       <Project>{5e4e0fcc-d296-4ba5-83f0-a4b98fe8e471}</Project>
-      <Name>MyWeatherStandard</Name>
+      <Name>MyWeather</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

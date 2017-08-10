@@ -2456,7 +2456,7 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
-      "MyWeatherStandard/1.0.0": {
+      "MyWeather/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
@@ -4954,7 +4954,7 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
-      "MyWeatherStandard/1.0.0": {
+      "MyWeather/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
@@ -7491,7 +7491,7 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
-      "MyWeatherStandard/1.0.0": {
+      "MyWeather/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
@@ -9998,7 +9998,7 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
-      "MyWeatherStandard/1.0.0": {
+      "MyWeather/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
@@ -12544,7 +12544,7 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
-      "MyWeatherStandard/1.0.0": {
+      "MyWeather/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
@@ -15051,7 +15051,7 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
-      "MyWeatherStandard/1.0.0": {
+      "MyWeather/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
@@ -17597,7 +17597,7 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
-      "MyWeatherStandard/1.0.0": {
+      "MyWeather/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
@@ -26537,10 +26537,10 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "MyWeatherStandard/1.0.0": {
+    "MyWeather/1.0.0": {
       "type": "project",
-      "path": "../MyWeatherStandard/MyWeatherStandard.csproj",
-      "msbuildProject": "../MyWeatherStandard/MyWeatherStandard.csproj"
+      "path": "../MyWeatherStandard/MyWeather.csproj",
+      "msbuildProject": "../MyWeatherStandard/MyWeather.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -26567,8 +26567,8 @@
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\Yury\\Source\\Repos\\MyWeather.Forms\\MyWeatherStandard\\MyWeatherStandard.csproj": {
-              "projectPath": "C:\\Users\\Yury\\Source\\Repos\\MyWeather.Forms\\MyWeatherStandard\\MyWeatherStandard.csproj"
+            "C:\\Users\\Yury\\Source\\Repos\\MyWeather.Forms\\MyWeatherStandard\\MyWeather.csproj": {
+              "projectPath": "C:\\Users\\Yury\\Source\\Repos\\MyWeather.Forms\\MyWeatherStandard\\MyWeather.csproj"
             }
           }
         }
