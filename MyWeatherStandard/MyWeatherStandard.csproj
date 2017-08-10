@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="View\ForecastView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WeatherView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.0.1" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.0.1" />
+    <PackageReference Include="Xam.Plugins.TextToSpeech" Version="3.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="2.3.5.256-pre6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="View\ForecastView.xaml.cs">
+      <DependentUpon>ForecastView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\WeatherView.xaml.cs">
+      <DependentUpon>WeatherView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

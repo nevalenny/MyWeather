@@ -136,12 +136,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyWeather\MyWeather.csproj">
-      <Name>MyWeather</Name>
-      <Project>{5366CC83-65A3-4969-B883-3229108447E2}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MainApplication.cs" />
@@ -176,6 +170,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyWeatherStandard\MyWeatherStandard.csproj">
+      <Project>{5e4e0fcc-d296-4ba5-83f0-a4b98fe8e471}</Project>
+      <Name>MyWeatherStandard</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Annotations.25.3.1\build\MonoAndroid70\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Annotations.25.3.1\build\MonoAndroid70\Xamarin.Android.Support.Annotations.targets')" />

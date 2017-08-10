@@ -120,12 +120,6 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyWeather\MyWeather.csproj">
-      <Name>MyWeather</Name>
-      <Project>{5366CC83-65A3-4969-B883-3229108447E2}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
       <InProject>false</InProject>
     </ImageAsset>
@@ -207,6 +201,12 @@
     <BundleResource Include="Resources\tab2%402x.png" />
     <BundleResource Include="Resources\tab2%403x.png" />
     <BundleResource Include="Resources\tab2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyWeatherStandard\MyWeatherStandard.csproj">
+      <Project>{5e4e0fcc-d296-4ba5-83f0-a4b98fe8e471}</Project>
+      <Name>MyWeatherStandard</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.5.256-pre6\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.5.256-pre6\build\netstandard1.0\Xamarin.Forms.targets')" />
