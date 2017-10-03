@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeather", "MyWeather\MyWeather.csproj", "{5366CC83-65A3-4969-B883-3229108447E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeather.iOS", "MyWeather.iOS\MyWeather.iOS.csproj", "{7F106FBA-12E5-4D92-9F4C-38EAD1652E7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeather.iOS", "My Weather.iOS\MyWeather.iOS.csproj", "{7F106FBA-12E5-4D92-9F4C-38EAD1652E7E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeather.Android", "MyWeather.Droid\MyWeather.Android.csproj", "{65B45A0F-D6D8-432F-B36D-D7D41675DC76}"
 EndProject
