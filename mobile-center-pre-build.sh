@@ -1,2 +1,2 @@
-echo "`${Agent.HomeDirectory}/scripts/select-xamarin-sdk.sh Stable`"
-${Agent.HomeDirectory}/scripts/select-xamarin-sdk.sh Stable
+#!/bin/bash
+/Users/ci/agent/vstsagent/scripts/select-xamarin-sdk.sh Stable
