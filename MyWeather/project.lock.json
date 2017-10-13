@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETPortable,Version=v4.5,Profile=Profile7": {
       "Newtonsoft.Json/9.0.1": {
@@ -433,7 +433,15 @@
       "projectName": "MyWeather",
       "projectPath": "/Users/yn/Projects/MyWeather.Forms/MyWeather/MyWeather.csproj",
       "projectJsonPath": "/Users/yn/Projects/MyWeather.Forms/MyWeather/project.json",
-      "projectStyle": "ProjectJson"
+      "packagesPath": "/Users/yn/.nuget/packages/",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "/Users/yn/.config/NuGet/NuGet.Config"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
+      }
     },
     "dependencies": {
       "Newtonsoft.Json": "9.0.1",
