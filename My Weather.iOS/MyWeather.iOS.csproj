@@ -144,7 +144,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyWeather\MyWeather.csproj">
+    <ProjectReference Include="..\My Weather\MyWeather.csproj">
       <Name>MyWeather</Name>
       <Project>{5366CC83-65A3-4969-B883-3229108447E2}</Project>
     </ProjectReference>
