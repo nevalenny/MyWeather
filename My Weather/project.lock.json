@@ -429,10 +429,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "/Users/yn/Projects/MyWeather.Forms/MyWeather/MyWeather.csproj",
+      "projectUniqueName": "/Users/yn/Projects/MyWeather.Forms/My Weather/MyWeather.csproj",
       "projectName": "MyWeather",
-      "projectPath": "/Users/yn/Projects/MyWeather.Forms/MyWeather/MyWeather.csproj",
-      "projectJsonPath": "/Users/yn/Projects/MyWeather.Forms/MyWeather/project.json",
+      "projectPath": "/Users/yn/Projects/MyWeather.Forms/My Weather/MyWeather.csproj",
+      "projectJsonPath": "/Users/yn/Projects/MyWeather.Forms/My Weather/project.json",
       "packagesPath": "/Users/yn/.nuget/packages/",
       "projectStyle": "ProjectJson",
       "configFilePaths": [

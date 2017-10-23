@@ -1,2 +1,2 @@
 #!/bin/bash
-env
+$AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh 5_4_0
