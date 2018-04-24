@@ -1,33 +1,25 @@
-using System;
-
 using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Content.PM;
 using Android.OS;
+using Plugin.Permissions;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
-using Plugin.Permissions;
-using Android.Content.PM;
 
 namespace MyWeather.Droid
 {
-	[Activity (Label = "My Weather", MainLauncher = true, Icon = "@drawable/icon")]
-	public class MainActivity : FormsAppCompatActivity
+    [Activity(Label = "My Weather", MainLauncher = true, Icon = "@drawable/icon")]
+    public class MainActivity : FormsAppCompatActivity
     {
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+			ToolbarResource = Resource.Layout.toolbar;
+			TabLayoutResource = Resource.Layout.tabs;
+			base.OnCreate(savedInstanceState);
 
-		protected override void OnCreate (Bundle bundle)
-		{
-			
-		    ToolbarResource = Resource.Layout.toolbar;
-		    TabLayoutResource = Resource.Layout.tabs;
-		    base.OnCreate (bundle);
+			Forms.Init(this, savedInstanceState);
 
-		    Forms.Init(this, bundle);
-		
-		    LoadApplication(new App());
-		}
+			LoadApplication(new App());
+        }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
         {
@@ -35,5 +27,3 @@ namespace MyWeather.Droid
         }
     }
 }
-
-

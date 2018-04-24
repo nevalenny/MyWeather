@@ -17,6 +17,7 @@ local.properties
 .loadpath
 mobile.userprefs
 .nuget
+TestResult.xml
 
 # External tool builders
 .externalToolBuilders/
@@ -222,3 +223,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+MyWeather\.userprefs
+
+MyWeather\.Droid/Resources/Resource\.designer\.cs
