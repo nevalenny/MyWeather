@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace MyWeather.Shared
 {
     public class MyClass
@@ -7,7 +9,12 @@ namespace MyWeather.Shared
 
         public MyClass()
         {
-            Console.WriteLine(whereClause("Test").ToString());
+            HockeyApp.MetricsManager.TrackEvent(
+                "Custom Event",
+                new Dictionary<string, string> { { "property", "value" } },
+                new Dictionary<string, double> { { "time", 1.0 } }
+              );
+            //Console.WriteLine(whereClause("Test").ToString());
         }
     }
 }

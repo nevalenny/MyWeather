@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using HockeyApp.iOS;
 using System;
 using UIKit;
 using Xamarin.Forms;
@@ -22,6 +23,11 @@ namespace MyWeather.iOS
                 TextColor = UIColor.White
             });
             Forms.Init();
+
+            var manager = BITHockeyManager.SharedHockeyManager;
+            manager.Configure("8b73e8ffca3d4816b5e1aaa6a378d1ab");
+            manager.StartManager();
+            manager.Authenticator.AuthenticateInstallation();
 
             LoadApplication(new App());
 
