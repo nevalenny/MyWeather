@@ -11,7 +11,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>8.1</string>
+	<string>9.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -52,5 +52,9 @@
 	<string>Plugin usage</string>
 	<key>CFBundleVersion</key>
 	<string>100</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Setup avatar</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Show location specific forecasts</string>
 </dict>
 </plist>
