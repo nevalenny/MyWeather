@@ -7,7 +7,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.piratespaceship.myweather1</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -51,7 +51,7 @@
 	<key>NSCalendarsUsageDescription</key>
 	<string>Plugin usage</string>
 	<key>CFBundleVersion</key>
-	<string>100</string>
+	<string>1</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Setup avatar</string>
 	<key>NSLocationAlwaysUsageDescription</key>
