@@ -5,15 +5,13 @@
 	<key>CFBundleDisplayName</key>
 	<string>MyWeather.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.refractored.myweather</string>
+	<string>com.piratespaceship.myweather1</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>8.1</string>
+	<string>9.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -42,11 +40,21 @@
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
 	<key>XSLaunchImageAssets</key>
 	<string>Resources/Images.xcassets/LaunchImage.launchimage</string>
-    <key>UIStatusBarStyle</key>
-    <string>UIStatusBarStyleLightContent</string>
-    <key>UIViewControllerBasedStatusBarAppearance</key>
-    <false/>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Location for closest weather.</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location for closest weather.</string>
+	<key>CFBundleName</key>
+	<string>MyWeather.iOS</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Plugin usage</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Setup avatar</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Show location specific forecasts</string>
 </dict>
 </plist>
